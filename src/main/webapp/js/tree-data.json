@@ -1,0 +1,25 @@
+[{
+    text:'JVM Status',
+    id:'jvm-status',
+    leaf:true
+},{
+    text:'Database Status',
+    id:'db-server-status',
+    leaf:true
+},{
+    text:'Process Status',
+    id:'db-proc-status',
+    leaf:true
+},{
+    text:'Table Status',
+    id:'db-table-status',
+    leaf:true
+},{
+    text:'Schema Explorer',
+    id:'db-schema-explorer',
+    leaf:true
+},{
+    text:'JSON Query',
+    id:'json-query',
+    leaf:true
+}]
