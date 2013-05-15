@@ -73,7 +73,7 @@ public class GsonDBExecutor implements IDBExecutor {
                 List<String> columnNames = new ArrayList<String>(cc);
 
                 for (int i = 1; i <= cc; ++i)
-                    columnNames.add(rmd.getColumnName(i));
+                    columnNames.add(rmd.getColumnLabel(i));
 
                 JsonObject row;
                 
